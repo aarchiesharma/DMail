@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Black & Purple Themed Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+  /* General Styles */
+  /* General Styles */
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, rgba(20, 0, 40, 0.95), rgba(0, 0, 0, 1));
+    /* Darker background */
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Navbar */
+  .navbar {
+    position: relative;
+    margin-top: 50px;
+    /* Move the navbar downwards */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: rgba(50, 0, 70, 0.9);
+    /* Same dark background color */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    /* Add box shadow */
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+  }
+
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .nav-btn {
+    background-color: #9C27B0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 16px;
+    transition: 0.3s ease;
+  }
+
+  .nav-btn:hover {
+    background-color: #BA68C8;
+  }
+
+  /* Main Section Layout */
+  .main-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    flex: 1;
+  }
+
+  /* Left Section */
+  .left-section {
+    max-width: 50%;
+  }
+
+  .left-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+
+  .left-section p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .action-btn {
+
+    color: red;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 18px;
+    transition: 0.3s ease;
+    border: 1px solid red;
+
+
+  }
+
+  .action-btn:hover {
+    background-color: #FFB74D;
+  }
+
+  /* Right Section */
+  .right-section img {
+    max-width: 700px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  }
+</style>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">MyLogo</div>
+    <button class="nav-btn">Connect Wallet</button>
+  </nav>
+
+  <!-- Main Section -->
+  <section class="main-section">
+    <!-- Left Section with Text -->
+    <div class="left-section">
+      <h1>Welcome to DMail Network</h1>
+      <p>Season 2 rewards ended on</p>
+      <p>Sep 12,2024</p>
+      <button class="action-btn">Learn More</button>
+    </div>
+
+    <!-- Right Section with Image -->
+    <div class="right-section">
+      <img src="https://mail.dmail.ai/assets/moon-52a2563b.webp" alt="Placeholder Image">
+    </div>
+  </section>
+</body>
+
+</html>
